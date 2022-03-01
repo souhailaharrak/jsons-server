@@ -1,0 +1,544 @@
+{
+    "produit": [
+        {
+            "id": 1,
+            "désignation": "Cosmos",
+            "prix": 5.19,
+            "length":25,
+            "catégorie": "Astronomy",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "paris",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "fffffr",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 2,
+            "désignation": "HeLLO WORLD COMPUTER",
+            "prix": 4.19,
+            "length": 12,
+            "catégorie": "Coding test",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "fes",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 3,
+            "désignation": "Noonday demon",
+            "prix": 3.99,
+            "length": 142,
+            "catégorie": "Psychology",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "paris",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 4,
+            "désignation": "Paris",
+            "prix": 4.50,
+            "length": 440,
+            "catégorie": "Travel books",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "venzuila",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 5,
+            "désignation": "i Tuscany",
+            "prix": 4.25,
+            "length": 540,
+            "catégorie": "Travel books",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "caracas"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 6,
+            "désignation": "the scince of serial killers",
+            "prix": 13.85,
+            "length": 240,
+            "catégorie": "true crime",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 7,
+            "désignation": "lucky",
+            "prix": 3.85,
+            "length": 140,
+            "catégorie": "true crime",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "paris",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 8,
+            "désignation": "yoga Meltdown",
+            "prix": 3.59,
+            "length": 170,
+            "catégorie": "sports",
+            "disponibilité": [
+                "Tanger",
+                "fes",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 9,
+            "désignation": "football",
+            "prix": 7.59,
+            "length": 200,
+            "catégorie": "sports",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "martil",
+                "fes"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 10,
+            "désignation": "basketball for dummies",
+            "prix": 4.39,
+            "length": 340,
+            "catégorie": "sports",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 11,
+            "désignation": "the Natural",
+            "prix": 4,
+            "length": 120,
+            "catégorie": "sports",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 12,
+            "désignation": "powder days",
+            "prix": 23.44,
+            "length": 330,
+            "catégorie": "sports",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 13,
+            "désignation": "Mythology",
+            "prix": 11.44,
+            "length": 190,
+            "catégorie": "politics",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 14,
+            "désignation": "the changing world order",
+            "prix": 30.44,
+            "length": 420,
+            "catégorie": "politics",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 15,
+            "désignation": "Redeeming LOve",
+            "prix": 14.4,
+            "length": 700,
+            "catégorie": "romance",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 16,
+            "désignation": "amethyst",
+            "prix": 17.4,
+            "length": 70,
+            "catégorie": "romance",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 17,
+            "désignation": "opal",
+            "prix": 4.45,
+            "length": 100,
+            "catégorie": "romance",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 18,
+            "désignation": "the guarina",
+            "prix": 5.45,
+            "length": 100,
+            "catégorie": "romance",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 19,
+            "désignation": "you can heal your life",
+            "prix": 80.45,
+            "length": 500,
+            "catégorie": "Medical",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "paris"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 20,
+            "désignation": "immunity strong",
+            "prix": 21.45,
+            "length": 240,
+            "catégorie": "Medical",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "salé"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 21,
+            "désignation": "pain free",
+            "prix": 16.27,
+            "length": 70,
+            "catégorie": "Medical",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 22,
+            "désignation": "supercharged self-healing",
+            "prix": 16.37,
+            "length": 410,
+            "catégorie": "Medical",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "Algérie",
+                "Tunisie"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 23,
+            "désignation": "holistic medicine",
+            "prix": 17.37,
+            "length": 420,
+            "catégorie": "Medical",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "Marrakech",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 24,
+            "désignation": "the truth about COVID-19",
+            "prix": 16.23,
+            "length": 720,
+            "catégorie": "Medical",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 25,
+            "désignation": "the book thief",
+            "prix": 4.3,
+            "length": 220,
+            "catégorie": "literature",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 26,
+            "désignation": "nineteen eighty-four",
+            "prix": 6.79,
+            "length": 320,
+            "catégorie": "fiction",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 27,
+            "désignation": "new moon",
+            "prix": 3.29,
+            "length": 328,
+            "catégorie": "fiction",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 28,
+            "désignation": "harry potter",
+            "prix": 11.79,
+            "length": 820,
+            "catégorie": "fiction",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "agadir",
+                "france",
+                "dakhla"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 29,
+            "désignation": "pride and prejudicce",
+            "prix": 31.79,
+            "length": 520,
+            "catégorie": "fiction",
+            "disponibilité": [
+                "safi",
+                "titouan",
+                "tazaa",
+                "france",
+                "london"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        },
+        {
+            "id": 30,
+            "désignation": "fahrenheit 451",
+            "prix": 2.79,
+            "length": 190,
+            "catégorie": "fiction",
+            "disponibilité": [
+                "Tanger",
+                "titouan",
+                "El Jadida",
+                "france",
+                "Rabat"
+            ],
+            "fournisseur": {
+                "raison_sociale": "Bookstore",
+                "adresse": "Atlas boulvarde bir anzarane rue fes"
+            }
+        }
+    ]
+}

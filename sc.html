@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json server test 1</title>
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- my style -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- start section json server output -->
+    <section class="section-json-server">
+        <div class="container">
+            <nav class="navbar navbar-light bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">LIBRARY</a>
+                 
+                  <form>
+                    <label for="num" class="text-white ms-4" id="for" >PASSWORD</label>
+                    <input type="password" id="num">
+                    
+                 <button for="lname" class="bg-primary ms-3 border-0" id="for" >LOGIN</button>
+                   <input type="text" id="lname">
+                  
+                  </form> 
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle bg-primary" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      SEARCH category
+                    </button>
+               
+                </div>
+                </div>
+                </nav>
+                <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        
+                      <div class="carousel-item active">
+                        <img src="log2.jpg" class="d-block" alt="...">
+                         <div class="carousel-caption d-none d-md-block">
+                              <h2>ONLINE BOOK LIBRARY</h2> 
+                               
+                      </div>
+                    </div>
+                  </div>
+            <div class="btn-controls">
+                <div class="row"> 
+                    <!-- search box -->
+                    <div class="col-md-6"> 
+                        <div class="seach-box">
+                            <input type="text" id="searchBox" class="my-2 form-control" placeholder="Search....">
+                        </div>
+                    </div>
+                    <!-- order (asc/desc) -->
+                    <div class="col-md-6"> 
+                        <div class="order-box my-2">
+                            <div class="row"> 
+                                <div class="col-md-3"> 
+                                    <select id="sort-method" class="form-control">
+                                        <option value="id">id</option>
+                                        <option value="désignation">désignation</option>
+                                        <option value="prix">prix</option>
+                                        <option value="length">length</option>
+                                        <option value="catégorie">catégorie</option>
+                                        <option value="disponibilité">disponibilité</option>
+                                        <option value="raison_sociale">raison sociale</option>
+                                        <option value="adresse">adresse</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-5"> 
+                                    <div class="d-flex">
+                                        <select id="order-value" class="form-control">
+                                            <option value="asc">asc</option>
+                                            <option value="desc">desc</option>
+                                        </select>
+                                        <button class="btn btn-primary ms-1" id="order-btn">
+                                            ok
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <table class="table table-stripped table-hover text-center mt-4 json-list">
+                <thead>
+                    <th>
+                       #id
+                    </th>
+                    <th>
+                        <span>prix</span>
+                    </th>
+                    <th>
+                        <span>désignation</span>
+                    </th>
+                    <th>
+                        <span>length</span>
+                    </th>
+                    <th>
+                        <span>categorie</span>
+                    </th>
+                    <th>
+                        <span>disponibilité</span>
+                    </th>
+                    <th>
+                        <d>fournisseur</d>
+                    </th>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+          <!-- pagination -->
+            <div class="pagination-parent d-flex justify-content-center">
+                <ul class="pagination">
+                    <li class="page-item active">
+                        <a class="page-link" href="#">1</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">2</a>
+                    </li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">3</a>
+                    </li>
+                </ul> 
+            </div>
+        </div>
+    </section>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- bootstrap5 js file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- main script -->
+    <script src="main.js"></script>
+ 
+</body>
+</html>
